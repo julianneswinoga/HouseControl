@@ -6,4 +6,4 @@ Planned:
 -Download songs automagically
 -Set dates on a calendar
 -Integration with media server
--
+-Weather
