@@ -1,10 +1,10 @@
 Program(s) for controlling a home with only voice commands.
 
 Currently it can:
--
+-Check the weather
 
 In progress:
--Weather
+-Useability improvements
 
 Planned:
 -Download songs automagically
