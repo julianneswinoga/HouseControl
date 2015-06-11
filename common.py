@@ -1,3 +1,6 @@
+import urllib2
+import json
+
 def wholeWordFind(text, word):
     word = word.strip().lower()
     nums = []
@@ -21,3 +24,9 @@ def wholeWordFind(text, word):
             except:
                 pass
     return False
+
+def getLocation():
+    f = urllib2.urlopen("http://freegeoip.net/json/")
+    json_string = f.read()
+    f.close()
+    return json.loads(json_string)

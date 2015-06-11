@@ -18,6 +18,8 @@ def callback(recognizer, audio):
         else:
             transcribedText = transcribedText.lower().replace("okay house", "")
             data = interpreter.parseForKeywords(transcribedText)
+
+        print data
         
     except LookupError:
         print "Oops! Didn't catch that"
@@ -26,5 +28,5 @@ recognizer = speech_recognition.Recognizer()
 recognizer.listen_in_background(speech_recognition.Microphone(), callback)
 
 while True:
-    if (data != None and data != {}): print data
+    #if (data != None and data != {}): print data
     time.sleep(0.1)

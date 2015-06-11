@@ -1,2 +1,2 @@
-weather:what is the weather,whats the weather,check the weather,check what the weather,whats the local weather,
+weather:what is the weather,whats the weather,check the weather,check what the weather,whats the local weather,weather now,
 test:this is a test,doing a test,test check,
